@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
-    "deploy": "git subtree push — prefix dist heroku master"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "vue": "^2.5.2",
